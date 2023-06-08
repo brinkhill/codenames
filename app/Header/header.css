@@ -1,0 +1,34 @@
+nav {
+  height: 8svh;
+  /* outline: 2px solid var(--primary); */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1svh;
+  padding: 20px;
+  border-radius: 10px;
+
+  background-color: var(--background);
+
+  font-size: 0.9em;
+  box-shadow: var(--shadow) 0px 8px 24px;
+
+  transition: 0.5s;
+}
+
+.main-title {
+  font-weight: 600;
+  font-size: 1.4em;
+}
+
+.sub-title {
+  font-size: 0.8em;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 16vw;
+}
