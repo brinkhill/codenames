@@ -17,32 +17,32 @@
 } */
 
 :root {
-  --background: #2d2c2e;
-  --lighterback: #3b3a3d;
-  --primary: #feffff;
-  --secondary: #8a8b8e;
-  --shadow: rgba(78, 83, 87, 0.2);
+ --background: #2d2c2e;
+ --lighterback: #3b3a3d;
+ --primary: #feffff;
+ --secondary: #8a8b8e;
+ --shadow: rgba(19, 20, 20, 0.2);
 }
 
 * {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
+ box-sizing: border-box;
+ padding: 0;
+ margin: 0;
 }
 
 html,
 body {
-  max-width: 100svw;
-  max-height: 100svh;
-  overflow-x: hidden;
-  text-rendering: optimizeLegibility;
-  background-color: var(--lighterback);
-
-  transition: 0.2s;
-  color: var(--primary);
+ max-width: 100svw;
+ max-height: 100svh;
+ overflow-x: hidden;
+ text-rendering: optimizeLegibility;
+ background-color: var(--lighterback);
+ overflow-y: hidden;
+ transition: 0.2s;
+ color: var(--primary);
 }
 
 a {
-  color: inherit;
-  text-decoration: none;
+ color: inherit;
+ text-decoration: none;
 }

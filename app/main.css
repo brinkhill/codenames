@@ -1,6 +1,50 @@
 main {
-  height: 80svh;
-  outline: 2px solid #f13030;
-  margin: 1svh;
-  padding: 20px;
+ height: 80svh;
+ margin: 1svh;
+}
+
+.words-header {
+ height: 10%;
+ padding-left: 28vw;
+ padding-right: 28vw;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+}
+
+.words-box {
+ height: 80%;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-direction: column;
+}
+
+.row {
+ height: 100%;
+ width: 100%;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ margin: 2px;
+}
+
+.lock {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ background-color: var(--secondary);
+ padding: 8px;
+ border-radius: 8px;
+ transition: 0.2s ease-out;
+}
+
+.add-extra {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ background-color: var(--secondary);
+ padding: 8px;
+ border-radius: 8px;
+ transition: 0.2s ease-out;
 }
