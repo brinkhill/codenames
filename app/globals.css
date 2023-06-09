@@ -17,10 +17,10 @@
 } */
 
 :root {
- --background: #2d2c2e;
- --lighterback: #3b3a3d;
+ --background: #fffee1;
+ --lighterback: #7b9a90;
  --primary: #feffff;
- --secondary: #8a8b8e;
+ --secondary: #feffffc3;
  --shadow: rgba(19, 20, 20, 0.2);
 }
 
@@ -36,10 +36,10 @@ body {
  max-height: 100svh;
  overflow-x: hidden;
  text-rendering: optimizeLegibility;
- background-color: var(--lighterback);
+ /* background-image: linear-gradient(180deg, #db4352 5%, #e95664 20%, #cd5964 60%, #db4352 95%); */
+ background-image: linear-gradient(180deg, #2f6ed3 5%, #5095e4 20%, #5095e4 60%, #2f6ed3 95%);
  overflow-y: hidden;
  transition: 0.2s;
- color: var(--primary);
 }
 
 a {

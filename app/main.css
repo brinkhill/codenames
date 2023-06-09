@@ -1,15 +1,23 @@
 main {
  height: 80svh;
  margin: 1svh;
+ padding: 1svh;
+ background: rgba(255, 255, 255, 0.25);
+ box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+ backdrop-filter: blur(4px);
+ -webkit-backdrop-filter: blur(4px);
+ border-radius: 10px;
+ border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
 .words-header {
- height: 10%;
- padding-left: 28vw;
- padding-right: 28vw;
+ height: 9%;
+ padding-left: 35vw;
+ padding-right: 35vw;
  display: flex;
  align-items: center;
  justify-content: space-between;
+ color: var(--primary);
 }
 
 .words-box {
@@ -33,18 +41,36 @@ main {
  display: flex;
  align-items: center;
  justify-content: center;
- background-color: var(--secondary);
  padding: 8px;
- border-radius: 8px;
+ border-radius: 10px;
  transition: 0.2s ease-out;
+ color: var(--primary);
+}
+
+.lock:hover,
+.lock:active {
+ box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+ backdrop-filter: blur(4px);
+ -webkit-backdrop-filter: blur(4px);
+ border-radius: 10px;
+ border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
 .add-extra {
  display: flex;
  align-items: center;
  justify-content: center;
- background-color: var(--secondary);
+ color: var(--primary);
  padding: 8px;
  border-radius: 8px;
  transition: 0.2s ease-out;
+}
+
+.add-extra:hover,
+.add-extra:active {
+ box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+ backdrop-filter: blur(4px);
+ -webkit-backdrop-filter: blur(4px);
+ border-radius: 10px;
+ border: 1px solid rgba(255, 255, 255, 0.18);
 }

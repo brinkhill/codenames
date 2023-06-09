@@ -25,7 +25,7 @@ export default function Card() {
  };
  return (
   <div className="card">
-   <textarea className="card-input" type="text" placeholder="word" value={inputValue} onChange={handleInputChange} />
+   <textarea className="card-input" type="text" placeholder="your word here" value={inputValue} onChange={handleInputChange} />
    {/* <button className="done-button">done</button> */}
   </div>
  );

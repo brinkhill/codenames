@@ -1,18 +1,18 @@
 nav {
  height: 8svh;
- /* outline: 2px solid var(--primary); */
  display: flex;
  justify-content: space-between;
  align-items: center;
  margin: 1svh;
  padding: 20px;
+ background: rgba(255, 255, 255, 0.25);
+ box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+ backdrop-filter: blur(4px);
+ -webkit-backdrop-filter: blur(4px);
  border-radius: 10px;
-
- background-color: var(--background);
-
+ border: 1px solid rgba(255, 255, 255, 0.18);
  font-size: 0.9em;
- box-shadow: var(--shadow) 0px 8px 24px;
-
+ color: var(--primary);
  transition: 0.5s;
 }
 
@@ -37,22 +37,39 @@ nav {
  display: flex;
  align-items: center;
  justify-content: center;
- background-color: var(--secondary);
  padding: 8px;
- border-radius: 8px;
+ border-radius: 10px;
  transition: 0.2s ease-out;
+
+ /* box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+ backdrop-filter: blur(4px);
+ -webkit-backdrop-filter: blur(4px);
+ border-radius: 10px;
+ border: 1px solid rgba(255, 255, 255, 0.18); */
 }
 
-/* .refresh:hover,
+.refresh:hover,
 .refresh:active {
- background-color: #1d70a2;
-} */
+ box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+ backdrop-filter: blur(4px);
+ -webkit-backdrop-filter: blur(4px);
+ border-radius: 10px;
+ border: 1px solid rgba(255, 255, 255, 0.18);
+}
 
 .paint-brush {
  display: flex;
  align-items: center;
  justify-content: center;
- background-color: #1d70a2;
  padding: 8px;
- border-radius: 8px;
+ border-radius: 10px;
+}
+
+.paint-brush:hover,
+.paint-brush:active {
+ box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+ backdrop-filter: blur(4px);
+ -webkit-backdrop-filter: blur(4px);
+ border-radius: 10px;
+ border: 1px solid rgba(255, 255, 255, 0.18);
 }

@@ -1,16 +1,20 @@
 .black {
- background-color: black;
  height: 10%;
  display: flex;
  align-items: center;
  justify-content: center;
- border-radius: 12px;
+ background: rgba(0, 0, 0, 0.734);
+ box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+ backdrop-filter: blur(4px);
+ -webkit-backdrop-filter: blur(4px);
+ border-radius: 10px;
+ border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
 .black-word {
- width: 80%;
+ width: 75%;
  color: var(--primary);
- background-color: inherit;
+ background-color: transparent;
  font-size: 1.4em;
  border: none;
  margin-left: 5px;
@@ -27,7 +31,7 @@
  display: flex;
  align-items: center;
  justify-content: center;
- color: var(--secondary);
+ color: var(--primary);
 }
 .black-word::placeholder {
  color: var(--secondary);

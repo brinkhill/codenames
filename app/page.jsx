@@ -5,7 +5,6 @@ import Card from "./components/cards/Card";
 export default function Main() {
  return (
   <main>
-   <Black />
    <div className="words-header">
     <div className="lock">
      <svg
@@ -24,7 +23,7 @@ export default function Main() {
       <path d="M7 11V7a5 5 0 0 1 10 0v4" />
      </svg>
     </div>
-    words:
+
     <div className="add-extra">
      <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -44,6 +43,7 @@ export default function Main() {
      </svg>
     </div>
    </div>
+   <Black />
    <div className="words-box">
     <div className="row">
      <Card />
