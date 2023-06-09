@@ -1,6 +1,26 @@
+"use client";
+
 import "./black.css";
+import React, { useEffect, useState } from "react";
 
 export default function Black() {
+ const [inputValue, setInputValue] = useState("");
+
+ useEffect(() => {
+  const savedValue = localStorage.getItem("assasinValue");
+  if (savedValue) {
+   setInputValue(savedValue);
+  }
+ }, []);
+
+ useEffect(() => {
+  localStorage.setItem("assasinValue", inputValue);
+ }, [inputValue]);
+
+ const handleInputChange = (e) => {
+  setInputValue(e.target.value);
+ };
+
  return (
   <div className="black">
    <div className="alert">
@@ -21,7 +41,7 @@ export default function Black() {
     </svg>
    </div>
 
-   <input className="black-word" placeholder="enter assassin..."></input>
+   <input className="black-word" placeholder="enter assassin..." value={inputValue} onChange={handleInputChange}></input>
    <div className="alert">
     <svg
      xmlns="http://www.w3.org/2000/svg"
