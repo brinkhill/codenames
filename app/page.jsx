@@ -8,19 +8,19 @@ export default function Main() {
    <Black />
    <div className="words-box">
     <div className="row">
-     <Card />
-     <Card />
-     <Card />
+     <Card cardId={1} />
+     <Card cardId={2} />
+     <Card cardId={3} />
     </div>
     <div className="row">
-     <Card />
-     <Card />
-     <Card />
+     <Card cardId={4} />
+     <Card cardId={5} />
+     <Card cardId={6} />
     </div>
     <div className="row">
-     <Card />
-     <Card />
-     <Card />
+     <Card cardId={7} />
+     <Card cardId={8} />
+     <Card cardId={9} />
     </div>
    </div>
   </main>
