@@ -22,7 +22,7 @@ export default function Black() {
     </svg>
    </div>
 
-   <input className="black-word" placeholder="enter assassin card..."></input>
+   <input className="black-word" placeholder="enter assassin..."></input>
    <div className="alert">
     <svg
      xmlns="http://www.w3.org/2000/svg"
