@@ -34,6 +34,12 @@
  justify-content: center;
  color: var(--primary);
 }
+
+.alert:hover {
+ transform: rotate(-360deg);
+ transition: 1s;
+}
+
 .black-word::placeholder {
  color: var(--secondary);
  /* border: solid 2px var(--secondary); */
