@@ -38,7 +38,7 @@ body {
  text-rendering: optimizeLegibility;
  /* background-image: linear-gradient(180deg, #db4352 5%, #e95664 20%, #cd5964 60%, #db4352 95%); */
  background-image: linear-gradient(180deg, #2f6ed3 5%, #5095e4 20%, #5095e4 60%, #2f6ed3 95%);
- overflow-y: hidden;
+ /* overflow-y: hidden; */
  transition: 0.2s;
 }
 

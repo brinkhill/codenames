@@ -13,9 +13,6 @@ export default function Header() {
   <nav>
    <div className="title">
     <p className="main-title">Codenames</p>
-    {/* <p className="sub-title">
-          <u>brinkley.dev</u>
-        </p> */}
    </div>
    <div className="actions">
     <div className="lock">
